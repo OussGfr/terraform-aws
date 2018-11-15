@@ -1,2 +1,2 @@
 # terraform-aws
-Script terraform for AWS (EC2, VPC, SUBNET ELB)
+Script terraform AWS for provisioning multiple instance ec2 in VPC, subnet, security group and expose to Load balancer only on port 443
