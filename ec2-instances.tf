@@ -17,8 +17,8 @@ resource "aws_instance" "test" {
 count="${var.count}"
 ami = "ami-04992646d54c69ef4"
 instance_type = "t2.micro"
-subnet_id = "subnet-0de7fc588b0b6a4e9"
-vpc_security_group_ids = ["sg-07c3dc51388a2eaad"]
+subnet_id = "subnet-ID"
+vpc_security_group_ids = ["sg-ID"]
 tags { Name="${format("test-%01d",count.index+1)}" }
 }
 
